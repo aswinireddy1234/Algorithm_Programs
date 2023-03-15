@@ -1,4 +1,4 @@
-package algorithmprogram
+package algorithmprogram;
 public class BubbleSorting {
     public static void BubbleSort(int[] array) {
         int a = array.length;
