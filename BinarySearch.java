@@ -1,3 +1,4 @@
+package algorithmprogram;
 public class BinarySearch {
     public static int binarySearch(String[] arr, String x) {
         int i = 0;
@@ -18,7 +19,7 @@ public class BinarySearch {
     public static void main(String[] args) {
         String[] arr = {"Envelope", "Table", "Dog", "Blanket", "Pot"};
         String x = "Envelope";
-        ;
+
         int result = binarySearch(arr, x);
         if (result == -1)
             System.out.println("Word not found");
